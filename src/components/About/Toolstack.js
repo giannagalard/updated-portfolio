@@ -1,24 +1,30 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
   SiVisualstudiocode,
-  SiEclipseide
+  SiEclipseide,
+  SiAndroidstudio,
 } from "react-icons/si";
+import { Tooltip } from "@material-ui/core";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
-        </Col>
+      <Tooltip title="Visual Studio Code" placement="bottom">
         <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-       <SiEclipseide />
-       </Col>
-       
+          <SiVisualstudiocode />
+        </Col>
+      </Tooltip>
+      <Tooltip title="Android Studio" placement="bottom">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiAndroidstudio />
+        </Col>
+      </Tooltip>
+      <Tooltip title="Eclipse" placement="bottom">
+        <Col xs={4} md={2} className="tech-icons">
+          <SiEclipseide />
+        </Col>
+      </Tooltip>
     </Row>
   );
 }

@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import GitLogo from "./GitLogo";
 
 function About() {
   return (
@@ -22,7 +23,8 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Welcome to my <strong className="purple">Website !</strong>
+              Welcome to my Cozy Corner on the{" "}
+              <strong className="purple">Interwebs !</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -44,8 +46,8 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
         <Github />
+        <GitLogo />
       </Container>
     </Container>
   );

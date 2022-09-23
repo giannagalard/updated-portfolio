@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import Avatar from "./Avatar.js";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+// https://getavataaars.com/
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -17,7 +17,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              It all started out with creating custom Tumblr themes in 2016...👩🏻‍💻
+              It all started out with customizing my Tumblr in middle
+              school...👩🏻‍💻
               <br />
               <br />I am fluent in classics like
               <i>
@@ -27,7 +28,7 @@ function Home2() {
               <br />
               My field of Interest's are learning how to build &nbsp;
               <i>
-                <b className="purple">Web and Mobile Applications. </b> 
+                <b className="purple">Mobile Applications. </b>
               </i>
               <br />
               <br />
@@ -35,14 +36,14 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <Avatar />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me!
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

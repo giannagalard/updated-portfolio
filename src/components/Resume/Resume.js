@@ -20,60 +20,72 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="SOCIAL MEDIA INTERN"
-              date="September 2018 - November 2018"
+              company="Lowe's Home Improvement"
+              title="Android Development Intern"
+              date="May 2022 - Aug 2022"
               content={[
-                "I worked with Super STARS Academic Services during the fall semester as a blog writer and social media intern.",
-                "I worked on improving their social media following as well as updating their company website.",
+                "Embedded WireMock in the Debug Lowe's QA App so that developers could run the service within the app without launching and maintaining external tools.",
+                "Wrote UI tests for multiple scenarios in the Payment Methods section of the wallet using Espresso and WireMock to ensure proper app functionality and seamless experience for the customer.",
+                "Participated in Agile routines and ceremonies such as Daily Standup, Backlog Grooming, Sprint Planning, Refinement, Demos.",
               ]}
             />
             <Resumecontent
-              title="REAL ESTATE BLOGGER"
-              date="July 2018 - August 2018"
+              company="Office of Information Technology Services"
+              title="Computer Lab Assistant"
+              date="Jan 2022 - Aug 2022"
               content={[
-                "There were two main components to the task including photography, and writing.",
-                "I would have to say my favorite aspect of interning here was working independently yet still being a part of a team.",
+                "Assisted students and professors with computer use, software, and equipment such as printers and projectors.",
+                "Maintained the front desk in the library lab and ensured students followed the computer lab's rules and protocols.",
+                "Operated the labs on campus by opening and closing them on a timely schedule.",
               ]}
-              />
-              <Resumecontent
-                title ="IT SUPPORT TECHNICIAN"
-                date="September 2017 - June 2018"
-                content={[
-                  "I worked with the school technician on Fridays to repair broken laptops and anything else that needed to be repaired.",
-                  "I also took inventory of the laptop carts in each classroom and checked to ensure that everything was fine and working."
-                ]}
-              />
+            />
+            <Resumecontent
+              company="New Venture's Charter School"
+              title="IT Support Technician Intern"
+              date="Sep 2017 - Jun 2018"
+              content={[
+                "Maintained detailed and up-to-date inventory of all technological equipment.",
+                "Utilized and repaired all standard office/school equipment.",
+                "Performed thorough diagnostics, repairs, & testing of various desktops, laptops, and tablets.",
+              ]}
+            />
           </Col>
           <Col md={6} className="resume-right">
-          <h3 className="resume-title">Certifications and Achivements</h3>
+            <h3 className="resume-title">Certifications and Achivements</h3>
             <Resumecontent
               title=""
               content={[
                 "The National Society of Leadership and Success",
-                "Advanced Java Programming 2021",
-                "Advanced Python: Working with Databases 2021",
-                "C++ Essential Training 2021",
-                "Git Intermediate Techniques 2021",
-                "Troubleshooting IT Remote Administration 2021",
+                "Advanced Java Programming",
+                "Advanced Python: Working with Databases",
+                "Git Intermediate Techniques",
               ]}
             />
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="CITY COLLEGE OF NEW YORK | CSI"
-              date="2019 - Present"
-              content={["BS in Computer Science and Mathematics"]}
+              company="City College of NY - CSI"
+              date="2019 - 2022"
+              title="BS in Computer Science and Mathematics"
+              content={[]}
             />
             <h3 className="resume-title">Clubs</h3>
             <Resumecontent
-              title="WOMEN IN TECHNOLOGY | WIT"
-              date="October 2020 - Present"
-              content={["Founding Member"]}
+              company="Women in Technology | WIT"
+              title="Founding Member and Treasurer"
+              date="2020 - 2022"
+              content={[
+                "Assisted the president and officers in preparing program budgets and financial controls.",
+                "Established proper financial guidelines and ensured that adequate budget and financial controls are maintained.",
+                "Oversaw and coordinated budget requests for the allocated budget.",
+                "Carefully followed the instructions from the Director of Student Life and Activities regarding budget requests and member registry.",
+              ]}
             />
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+            <AiOutlineDownload />
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>
